@@ -138,7 +138,7 @@ export default function Home() {
       </div>
       <div className="flex gap-4 lg:flex-col">
         <button
-          className="btn bg-info border-none"
+          className="btn bg-info border-none text-black"
           disabled={loading !== "idle"}
           onClick={() => handleDonwload(false)}
         >
@@ -148,7 +148,7 @@ export default function Home() {
           ) : null}
         </button>
         <button
-          className="btn bg-info border-none"
+          className="btn bg-info border-none text-black"
           disabled={loading !== "idle"}
           onClick={() => handleDonwload(true)}
         >
