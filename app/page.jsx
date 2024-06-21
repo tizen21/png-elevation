@@ -144,7 +144,7 @@ export default function Home() {
         >
           Téléchargement{" "}
           {loading === "downloading" ? (
-            <span> class="loading loading-spinner loading-sm"</span>
+            <span> class=&quot;loading loading-spinner loading-sm&quot;</span>
           ) : null}
         </button>
         <button
@@ -154,7 +154,7 @@ export default function Home() {
         >
           Copie{" "}
           {loading === "copying" ? (
-            <span> class="loading loading-spinner loading-sm"</span>
+            <span> class=&quot;loading loading-spinner loading-sm&quot;</span>
           ) : null}
         </button>
       </div>
