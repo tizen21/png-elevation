@@ -5,7 +5,7 @@ import clsx from "clsx";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Png Elevation",
+  title: "PNG Elevation",
   description: "Elevate your PNG files",
 };
 
